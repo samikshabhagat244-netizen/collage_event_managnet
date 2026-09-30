@@ -31,14 +31,7 @@ A modular Python console application for managing college events and registering
 ## Data Policy
 This project deliberately does NOT use persistent storage.
 
-No:
-- Database
-- MySQL/SQLite
-- JSON
-- Pickle
-- .dat files
-- CSV files
-- File-based saving
+
 
 All information is stored only in Python lists/dictionaries during program execution. When the program exits, runtime data is cleared.
 
